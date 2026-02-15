@@ -111,7 +111,7 @@ class MyApp extends StatelessWidget {
               contentPadding: EdgeInsets.zero // 17 dersteki  listTile düzenler
               )),
 
-      home: NavigationLearn1(),
+      home: DropDownLearn(),
     );
   }
 }
