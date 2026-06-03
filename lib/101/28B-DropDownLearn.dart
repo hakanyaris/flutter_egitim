@@ -24,6 +24,7 @@ class _DropDownLearnState extends State<DropDownLearn> {
   }
 
   DropdownButton biriciDers() => DropdownButton(items: [
+    //  DropdownMenuItem ile ilgili Açıklama aşağıda 
         DropdownMenuItem(
           child: Text('Elma'),
           value: 'Elma',
@@ -53,3 +54,11 @@ class _DropDownLearnState extends State<DropDownLearn> {
     });
   }
 }
+//Dropdown Menu Item
+//Dropdown Menu Item (Açılır Menü Öğesi), web sitelerinde veya uygulamalarda kullanıcının tıkladığında veya üzerine geldiğinde açılan menü (dropdown)
+//listesi içindeki her bir seçeneğe verilen isimdir.
+
+//Bir Dropdown Menu Item (Açılır Menü Öğesi) yazılımda temelde iki farklı değer taşır: Kullanıcının ekranda gördüğü değer (Görünen Değer / Text) ve
+//arka planda yazılımın işlediği değer (Veri Değeri / Value)
+// Arka Plan Değeri (Value Attribute)Kullanıcı bir seçeneğe tıkladığında, veri tabanına kaydedilen veya API'ye gönderilen asıl veridir.
+//Kullanıcı bu değeri doğrudan görmez.ID / Benzersiz Numaralar: Örneğin şehir seçimi menüsünde ekranda "İstanbul" yazar ancak arka plandaki değer 34'tür.
